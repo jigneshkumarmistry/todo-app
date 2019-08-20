@@ -1,5 +1,7 @@
-import UserController from './userController';
+import * as userController from './userController';
+import * as todoController from './todoController';
 
 export {
-    UserController
+    userController,
+    todoController
 }
