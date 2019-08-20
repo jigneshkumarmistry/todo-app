@@ -1,0 +1,39 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "Todo app with nodejs and mongo db",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jigneshkumarmistry/todo-app.git"
+  },
+  "keywords": [
+    "TODO"
+  ],
+  "author": "JigneshMistry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jigneshkumarmistry/todo-app/issues"
+  },
+  "homepage": "https://github.com/jigneshkumarmistry/todo-app#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.19.1"
+  }
+}
