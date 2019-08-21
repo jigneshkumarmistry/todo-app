@@ -19,8 +19,11 @@ mongooes.connect(process.env.DB_URL, { useNewUrlParser: true }, (err) => {
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+//User Routes 
 app.use(userRoutes);
 app.use(todoRoutes);
+
+//Bind application with post and hostname
 app.listen(port, hostname, () => {
     console.log(`App is running at http://${hostname}:${port}/`);
 });
