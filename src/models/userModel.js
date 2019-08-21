@@ -6,7 +6,7 @@ const userSchema = new Schema({
       lastName: Schema.Types.String,
       email: Schema.Types.String,
       password: Schema.Types.String,
-      userType: Schema.Types.Boolean  
+      isAdmin: Schema.Types.Boolean  
 });
 
 //For auto convert normal password to hased password through bcrypt

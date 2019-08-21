@@ -17,7 +17,6 @@ routes.get('/todos', async (req, res, next) => {
 });
 
 routes.post('/todos', async (req, res, next) => {
-
     try {
         const record = await todoController.create(req.body, req.decoded.data._id);
         res.status(201).json({ success: true, record });
