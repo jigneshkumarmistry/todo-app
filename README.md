@@ -1,4 +1,5 @@
-# todo-app
+# Todo App
+A simple todo application with nodejs which provide REST API for todos. It includes two types of user admin, user. Admin can see all user todo list. A user can see only his/own todos.
 
 ## Project setup
 ```
