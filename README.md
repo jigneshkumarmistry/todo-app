@@ -8,7 +8,7 @@ npm install
 
 ## Setup Environment
 ```
-### touch .env
+touch .env
 ```
 Edit .env file and set the below code into it.
 ```
